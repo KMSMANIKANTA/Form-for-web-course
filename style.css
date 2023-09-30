@@ -1,0 +1,168 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url('river.jpg');
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+.main{
+    position:relative;
+}
+.marquee{
+    color:burlywood;
+    font-size:20px;
+    direction: right;
+    margin-top: 10px;
+
+}
+.marquee:hover{
+    color:orange;
+}
+.navbar{
+    width:1000;
+   position:absolute;
+    color:white;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    right:100px;
+
+}
+.navbar ul {
+    display:flex;
+    list-style-type: none;
+}
+.navbar ul li{
+    margin-left:40px;
+    margin-top:30px;
+    transition:0.2s ease;
+}
+.navbar ul li:hover{
+    color:orange;
+}
+.content{
+margin:150px;
+font-size:xx-large;
+
+}
+.text1{
+    color:white;
+    font-weight: bold;
+
+}
+.text2{
+    color:#fda10d;
+    font-weight:bold;
+}
+.text3{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.joinustext{
+    color:black;
+    background: #fda10d;
+    border:1px solid black;
+    max-width:120px;
+    font-size:30px;
+    font-weight: bold;
+    margin:30px;
+    border-radius: 20px;
+    text-align: center;
+    padding:10px;
+}
+hr{
+    color:#fda10d;
+    border-top: double;
+    padding:10px
+}
+.form{
+    width:400px;
+    margin:auto;
+    border:2px solid gray;
+    background-color:black;
+    margin-top:100px;
+    height:400px;
+    color:white;
+    font-size:30px;
+border-radius: 50px;
+opacity:0.7;
+box-shadow:1px 1px 10px white;
+
+}
+.formtext{
+    color:rgb(239, 118, 12);
+    font-size: 30px;
+    background-color: white;
+    padding:10px;
+    border:1px solid white;
+    border-radius: 5px;
+    max-width: 200px;
+    text-align:center;
+    margin:auto;
+    margin-top: 30px;
+}
+form input{
+    border:1px solid gray;
+    margin-left:50px;
+    margin-top:20px;
+    padding:20px;
+    background-color: black;
+    color:white;
+    font-size:20px
+}
+.submit{
+    color:white;
+    background-color:rgb(239, 118, 12);
+    font-size:30px;
+    border:1px solid #fda10d;
+    margin:auto;
+    margin-top:30px;
+    margin-left:30px;
+    padding:10px;
+    border-radius:30px;
+
+
+}
+.reset{
+    color:white;
+    background-color:rgb(239, 118, 12);
+    font-size:30px;
+    border:1px solid #fda10d;
+
+    margin-top:30px;
+    margin-left:70px;
+    padding:10px;
+    border-radius:30px;
+
+
+}
+.submit:hover{
+
+    color:black;
+    font-weight: bold;
+}
+.reset:hover{
+    color:black;
+    font-weight: bold;
+}
+form input:hover{
+
+    color:white;
+    opacity:0.5;
+    
+}
+.thanks{
+    color:orange;
+    font-size:40px;
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+.thanks:hover{
+    font-weight: bold;
+}
